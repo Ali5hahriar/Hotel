@@ -60,6 +60,25 @@ p {
     background: #f4f4f4;
     color: #333;
 }
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #fff;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
+.clr {
+    clear: both;
+}
 /* Navbar */
 #navbar {
     background: #333;
@@ -139,4 +158,26 @@ p {
     text-align: center;
     padding: 50px 30px;
     overflow: hidden;
+    background: #333;
+    color: #fff;
+}
+
+/* features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
